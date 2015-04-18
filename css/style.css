@@ -1,0 +1,168 @@
+body {
+	font: 14px/1.5 'Open Sans', Arial, sans-serif;
+	color: #555;
+	min-width: 960px;
+	font-weight: 300;
+}
+/*HEADER*/
+.ba-header {
+	background: url("../img/banner.jpg") no-repeat 50% 50%;
+	background-size: cover;
+	-webkit-background-size: cover;
+	color: #fff;
+/*	padding: 100px 0;*/
+}
+.ba-header nav {
+	background: rgba(0, 0, 0, .7);
+	font-size: 0;
+	text-align: center;
+}
+.ba-header .logo {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 36px;
+	background: #82B440;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 15px;
+	/*font-weight: bold;*/
+}
+.ba-header .banner {
+	padding: 70px 100px 90px;
+}
+.ba-header .banner p {
+	font-size: 16px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.ba-header .banner :last-child {
+	margin-bottom: 0;
+}
+.ba-container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ba-header nav a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.ba-header nav li {
+	display: inline-block;
+}
+.ba-header nav li a {
+	display: block;
+	font-size: 14px;
+	padding: 0 15px;
+	height: 64px;		 	/*menu center*/
+	line-height: 64px;		/*menu center*/
+}
+.ba-header nav:hover a {
+	color: transparent;
+	text-shadow: 0 0 3px #fff;
+}
+.ba-header nav:hover a:hover {
+	color: #fff;
+	text-shadow: none;
+}
+/*type*/
+a {
+	color: #82B440;
+	text-decoration: underline;
+	transition: color .5s, text-shadow .5s;
+	-moz-transition: color .5s, text-shadow .5s;
+	-webkit-transition: color .5s, text-shadow .5s;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #555;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-bottom: 23px;
+	font-weight: normal;
+}
+p {
+	margin-bottom: 20px;
+}
+h1 {
+	font-size: 29px;
+	font-weight: 700;
+}
+h2 {
+	font-size: 26px;
+}
+h3 {
+	font-size: 23px;
+}
+h4 {
+	font-size: 23px;
+}
+h5, h6 {
+	font-size: 17px;
+}
+/*sections rows*/
+.ba-row {
+	padding: 90px 0;
+}
+.ba-byline {
+	font-size: 20px;
+}
+.ba-grid {
+	margin-left: -80px;
+}
+.ba-grid > [class*="ba-width"] {
+	padding-left: 80px;
+}
+.ba-bg-primary {
+	background-color: #82B440;
+	color: #fff;
+}
+.ba-button,
+ button,
+ input[type="button"],
+ input[type="submit"],
+ input[type="reset"]{
+	 display: inline-block;
+	 padding: 0 15px;
+	 height: 54px;
+	 line-height: 54px;
+	 border: 1px solid #82B440;
+	 color:#82B440;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 font-family: inherit;
+	 cursor: pointer;
+	 font-size: 14px;
+	 letter-spacing: 1px;
+	 transition: color .5s, background-color .5s, border-color .5s;
+	 -moz-transition: color .5s, background-color .5s, border-color .5s;
+	 -webkit-transition: color .5s, background-color .5s, border-color .5s;
+ }
+.ba-button:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+	background-color: #82B440;
+	color: #ffffff;
+}
+.ba-bg-primary .ba-button,
+.ba-bg-primary button,
+.ba-bg-primary input[type="button"],
+.ba-bg-primary input[type="submit"],
+.ba-bg-primary input[type="reset"]{
+	background-color: #82B440;
+	color: #ffffff;
+	border-color: #fff;
+}
+.ba-bg-primary .ba-button:hover,
+.ba-bg-primary button:hover,
+.ba-bg-primary input[type="button"]:hover,
+.ba-bg-primary input[type="submit"]:hover,
+.ba-bg-primary input[type="reset"]:hover {
+	background-color: #ffffff;
+	color: #82B440;
+}
