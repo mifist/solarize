@@ -121,6 +121,14 @@
 	padding-left: 20px;
 }
 
+/*Grid whith no gutter*/
+.ba-grid.ba-grid-no-gutter {
+	margin-left: 0;
+}
+.ba-grid.ba-grid-no-gutter > [class*="ba-width"] {
+	padding-left: 0;
+}
+
 .ba-width-1-1 {
 	width: 100%;
 }
@@ -208,3 +216,4 @@
 .ba-width-1-13 {
 	width: 7.6923%;
 }
+
